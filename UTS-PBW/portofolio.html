@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <title>My Portofolio</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap">
+    <style>
+        body{
+            background-image:url("images/image-testing.jpg");
+            font-family: 'Rubik', sans-serif;
+            color:white;
+
+        }
+        .turning-page{
+            background-color:black;
+            width: 80%; /* lebar container */
+            margin: 0  auto; /* menaruh container di tengah */
+            padding: 20px;
+            border-radius: 10px;
+  
+        }
+        .toc {
+            display: none;
+        }
+
+        .toc table {
+        width: 30%;
+        border-collapse: collapse;
+        }
+
+        .toc table td {
+        border: 1px solid;
+        padding: 10px;
+        }
+        .toc table td:hover {
+            background-color:purple;
+        }
+
+        
+        
+    </style></head>
+    <body>
+        <div class="turning-page">
+        <h1>About Me!</h1>
+        <div class="summary" id="C1">
+            <h2>Perkenalan</h2>
+            <p>Mahasiswa semester pertengahan yang memiliki keingintahuan dan hasrat yang tinggi terkait perkembangan dan cara kerja berbagai macam teknologi dalam layanan komersial dengan kemampuan pemrograman dasar dalam C++, Java, PHP, HTML, SQL, Python, dan dasar-dasar dari layanan cloud Alibaba.</p>
+            
+        </div>
+        <button id="toggleToc">Show</button>
+    <div id="toc" class="toc">
+    <table>
+        <tr>
+            <td><a href="#C1">Section 1</a></td>
+          </tr>
+          <tr>
+            <td><a href="#C2">Section 2</a></td>
+          </tr>
+          <tr>
+            <td><a href="#C3">Section 3</a></td>
+          </tr>
+          <tr>
+            <td><a href="#C4">Section 4</a></td>
+          </tr>
+          <tr>
+            <td><a href="#C5">Section 5</a></td>
+          </tr>
+          <tr>
+            <td><a href="#C6">Section 6</a></td>
+          </tr>
+    </table>
+    </div>
+        <div class="Education" id="C2">
+            <h2>Riwayat Pendidikan</h2>
+            <p>SMA Negeri 3 Sumedang, Sumedang - 2019 s/d 2022</p>
+            <p>S1 Informatika, Universitas Singaperbangsa Karawang, Karawang - September 2022 s/d Present</p>
+        </div>
+        <div class="Experience" id="C3">
+            <h2>Pengalaman</h2>
+            <p>Pemateri Mata Kuliah Kalkulus</p>
+            <ul>
+                <li>Melakukan public speaking pada mahasiswa baru angkatan 2023 terkait perkenalan Kalkulus dan penerapannya di bidang Informatika</li>
+                <li>Melakukan presentasi terkait materi dasar kalkulus</li>
+                <li>Membimbing mahasiswa baru dalam contoh praktis materi dasar kalkulus berupa latihan soal</li>
+            </ul>
+            <p>Delegasi Mahasiswa</p>
+            <ul>
+                <li>Melakukan penjagaan area kampus saat pelaksanaan PKKMB</li>
+                <li>Pengawalan mahasiswa baru dalam sesi akhir PKKMB</li>
+                <li>Penyambutan mahasiswa baru 2023</li>
+            </ul>
+        </div>
+        <div class="Pengalaman-Kepanitiaan" id="C4">
+            <h2>Pengalaman Kepanitiaan</h2>
+            <p>Panitia Bidang Penanggung Jawab Kelas Materi Umum</p>
+            <ul>
+                <li>Melakukan koordinasi dengan ketua pelaksana kegiatan terkait kurikulum study club</li>
+                <li>Menjadi moderator dalam kegiatan kelas Materi Umum antara pemateri dan mahasiswa baru</li>
+                <li>Melakukan koordinasi dengan pemateri terkait materi yang akan disampaikan dan waktu mengajar yang sesuai</li>
+            </ul>
+        </div>
+        <div class="Softskill" id="C5">
+            <h2>Soft Skill</h2>
+            <ul>
+                <li>Problem Solving</li>
+                <li>High Sense of Responsibility</li>
+                <li>Deep Analysis of Product</li>
+            </ul>
+        </div>
+        <section class="Hardskill" id="C6">
+            <h2>Hard Skill</h2>
+            <ul>
+                <li>C++ Programming</li>
+                <li>OOP with Java</li>
+                <li>SQL</li>
+            </ul>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</div>
+</html>
